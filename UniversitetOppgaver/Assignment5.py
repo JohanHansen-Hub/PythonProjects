@@ -45,6 +45,18 @@ make_tree()
 
 #Oppgave 3
 
+"""
+I denne oppgaven printer vi ut nodene fra graph klassen vår basert på deres naboer.
+eks.
+printer fra node 'a':
+
+a -> [->'b'<-, 'c'] -> printer a
+b -> [->'c'<-, 'd'] -> printer b
+c -> [->'e'<-]      -> printer c
+e -> [->'f'<-]      -> printer e
+osv.
+"""
+
 class Graph:
     graph = dict()
     searched = []
@@ -86,6 +98,11 @@ print("\nruns Depth First Search (DFS) algorithm starting from node ‘a’ and 
 my_graph.depth_first_search("a")
 
 #Oppgave 4.
+
+"""
+two new methods in this
+class that are described in the assignment
+"""
 
 class BinarySearchTree:
     def __init__(self, value=None):
