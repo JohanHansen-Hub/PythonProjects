@@ -7,7 +7,6 @@ class Node:
         self.next_node = next
 
 class linkedList:
-    # Metoden mottar bare head om det ønskes
     def __init__(self, head=None):
         self.head = head
     # Metode for å motta nye verdier til listen:

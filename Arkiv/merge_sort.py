@@ -10,6 +10,8 @@ def mergeSort(arr):
     
         i = j = k = 0
         while i < len(left) and j < len(right):
+            # Vi sammenligner left i med right j:
+            # Den minste verdien blir plassert i arr sin k plassering -> som vi øker med 1 for hver iterasjon.
             if left[i] < right[j]:
                 arr[k]  = left[i]
                 i += 1
