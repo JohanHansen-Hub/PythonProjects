@@ -8,7 +8,7 @@ def max_binary_search(n):
         n = n // 2
         steps +=1
     return print('Max steps used = '+str(steps) + ' FOR n = '+str(x))
-max_binary_search(171476)
+max_binary_search(262144)
 max_binary_search(1100373)
 max_binary_search(260000)
 
